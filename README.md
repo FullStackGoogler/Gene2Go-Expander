@@ -30,7 +30,7 @@ Default for the following are all an empty list, which doesn't perform any filte
 - `--include-tax-ids` Keep any rows with matching taxonomy IDs.
 - `--exclude-tax-ids` Discard any rows with matching taxnomy IDs.
 
-Example Usage:
+### Example Usage:
 ```python
 python Gene2Go-Expander.py --obo-file go-basic.obo --gene2go-file gene2go_filterby_taxID.csv --max-child-num 4000 --exclude-evidence-codes IEA ND IKR --include-tax-ids 9606 10090 10116
 ```
