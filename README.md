@@ -16,8 +16,10 @@ python Gene2Go-Expander.py
 ```
 
 ### Required Arguments:
-- `--obo-file` Path to the Gene Ontology .obo file
-- `--gene2go-file` Path to the Gene2Go file (.CSV format) 
+- `--obo-file` Path to the Gene Ontology .obo file. File should be in the [OBO v1.4 format](https://owlcollab.github.io/oboformat/doc/GO.format.obo-1_4.html).
+- `--gene2go-file` Path to the Gene2Go file (.CSV format). File should contain the following columns:
+
+`#tax_id        GeneID        GO_ID        Evidence        Qualifier        GO_term        PubMed        Category`
 
 ### Optional Arguments:
 - `-h | --help` Bring up the help documentation
